@@ -24,7 +24,7 @@ async function download(
   { tag, name }: Remote,
   local: string
 ): Promise<boolean> {
-  const url = `https://github.com/yao-pkg/pkg-fetch/releases/download/${tag}/${name}`;
+  const url = `https://github.com/spotandjake/pkg-fetch/releases/download/${tag}/${name}`;
 
   try {
     await downloadUrl(url, local);
